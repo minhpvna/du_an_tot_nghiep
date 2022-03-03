@@ -54,14 +54,12 @@
             <div class="collapse" id="emails">
               <ul class="nav sub-menu">
                 <li class="nav-item">
-                  <a href="{{route('notify.index')}}" class="nav-link">List</a>
+                  <a href="{{route('notify.index')}}" class="nav-link">Danh sách notify</a>
                 </li>
                 <li class="nav-item">
-                  <a href="{{route('notify.add')}}" class="nav-link">Add Notify</a>
+                  <a href="{{route('notify.add')}}" class="nav-link">Thêm notify</a>
                 </li>
-                <li class="nav-item">
-                  <a href="pages/email/compose.html" class="nav-link">Compose</a>
-                </li>
+               
               </ul>
             </div>
           </li>
@@ -642,10 +640,7 @@
           
 
 			<!-- partial:partials/_footer.html -->
-			<footer class="footer d-flex flex-column flex-md-row align-items-center justify-content-between">
-				<p class="text-muted text-center text-md-left">Copyright © 2020 <a href="https://www.nobleui.com" target="_blank">NobleUI</a>. All rights reserved</p>
-				<p class="text-muted text-center text-md-left mb-0 d-none d-md-block">Handcrafted With <i class="mb-1 text-primary ml-1 icon-small" data-feather="heart"></i></p>
-			</footer>
+		
 			<!-- partial -->
 		
 		</div>
